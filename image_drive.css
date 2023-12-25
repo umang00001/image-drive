@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(#29498d,#6bb8e9);
+    color:white;
+    font-size: 18px;
+    padding-top: 5px;
+}
+.header img{
+    border-radius: 50%;
+    background-color: none;
+    border: none;
+    /* margin: 5px; */
+}
+.header ul{
+    display: flex;
+    margin-left: 600px;
+    align-items: center;
+}
+.header ul li{
+    list-style-type: none;
+    padding: 0 15px;
+}
+
+.create_acc{
+    background-image: linear-gradient(#29498d,#6bb8e9);
+    border: none;
+    color: white;
+    padding: 5px 10px;
+}
+.header p{
+    margin-left: 10px;
+}
+
+/* content */
+
+.container{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.form_div{
+    width: 50%;
+}
+.image_div{
+    width: 50%;
+}
+.sign_up input{
+    display: block;
+    width: 400px;
+    margin-top: 15px;    
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.first_name_input{
+    margin:0px !important ;
+}
+.tab button{
+    border: none;
+    /* box-shadow: 0 0 3px black; */
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    background-color: white;
+    font-size: 18px;
+    
+}
+.active_btn{
+    background-image: linear-gradient(#29498d,#6bb8e9);
+    color: white;
+}
+.register{
+    background-image: linear-gradient(#29498d,#6bb8e9);
+    float: right;
+    margin-right: 150px;
+    color: white;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 0;
+}
+.log_in_btn{
+    background-image: linear-gradient(#29498d,#6bb8e9);
+    float: right;
+    margin-right: 150px;
+    color: white;
+    width: 150px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: none;
+    padding: 10px 0;
+}
+.log_in input{
+    display: block;
+    width: 400px;
+    margin-top: 15px;    
+    height: 40px;
+    padding-left: 10px;
+    outline: none;
+    font-size: 18px;
+}
+.log_in_usr_input{
+    margin: 0 !important;
+}
+.display_none{
+    display: none;
+}
+.sign_up_btn{
+    margin-left: 5px;
+}

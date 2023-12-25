@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+    <link rel="stylesheet" href="image_drive.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <img src="./img/profile.png" width="50px" alt="">
+        <p>image drive</p>
+        <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>service</li>
+            <li>contact</li>
+            <li>porfolio</li>
+            <button class="create_acc">create account</button>
+        </ul>
+    </div>
+    <div class="container">
+        <div class="form_div">
+            <div class="tab">
+                <button class="active_btn sign_up_tab">Sign up</button>
+                <button class="log_in_tab">Log in</button>
+            </div>
+            <div class="sign_up" >
+                <img src="./img/signup-2.webp" width="100px" alt="">
+                <input type="text" placeholder="First Name" class="first_name_input">
+                <input type="text" placeholder="Last Name" class="last_name_input">
+                <input type="text" placeholder="Username" class="username_input">
+                <input type="text" placeholder="Password" class="password_input">
+                <input type="text" placeholder="Mobile number" class="number_input">
+                
+                <button class="register">Register</button>
+                <p id="sign_up_notice" style="font-size: 20px;"></p>
+            </div>
+            <div class="log_in display_none">
+                <img src="./img/login.jfif" width="200px" alt="">
+                <input type="text" placeholder="Username" class ="log_in_usr_input">
+                <input type="text" placeholder="Password" class="log_in_pass_input">
+                <button class="log_in_btn"> Log in</button>
+                <p id="log_in_notice" style="font-size: 20px;"></p>
+            </div>
+        </div>
+        <div class="image_div">
+            <img src="./img/bg.png" alt="">
+
+        </div>
+    </div>
+
+
+
+
+    <script src="image_drive.js"></script>
+</body>
+
+</html>
